@@ -5,6 +5,7 @@ import "./Navbar.css"
 
 const Navbar = ({ appState, setAppState }) => {
   const className = "app " + appState?.width === "full" ? "container-fluid nav-fullwidth" : "container"
+  
   return (
     <div className={className + " Navbar"}>
       <nav className="navbar navbar-fixed navbar-expand-lg navbar-light">
